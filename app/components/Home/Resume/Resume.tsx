@@ -1,15 +1,21 @@
-import React from 'react'
-import ResumeCard from './ResumeCard'
-import { FaPen, FaUser } from 'react-icons/fa'
-import { BiBadge } from 'react-icons/bi'
-import { BsDatabase } from 'react-icons/bs'
-import ParticlesHero from '../Hero/Background'
+'use client';
+import React from 'react';
+import ResumeCard from './ResumeCard';
+import { FaPen, FaUser } from 'react-icons/fa';
+import { BiBadge } from 'react-icons/bi';
+import { BsDatabase } from 'react-icons/bs';
+import ParticlesHero from '../Hero/Background';
 
 const Resume = () => {
   return (
-    <div className="pt-20 pb-16">
-      <ParticlesHero />
-      <div className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-2 gap-10">
+    <div className="relative min-h-screen pt-20 pb-16 overflow-hidden">
+      {/* Background Particles */}
+      <div className="absolute inset-0 -z-10">
+        <ParticlesHero />
+      </div>
+
+      {/* Content */}
+      <div className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 relative z-10">
         
         {/* About Me Section */}
         <div>
@@ -29,30 +35,28 @@ const Resume = () => {
           <h1 className="text-3xl font-bold text-white">
             <span className="text-cyan-300">My</span> Education
           </h1>
-          <div className="mt-10">
+          <div className="mt-10 space-y-6">
             <ResumeCard 
               Icon={BiBadge} 
               text="Currently pursuing a Bachelor’s degree in Computer Science and Information Technology (BSc CSIT)"
-              college='Amrit Science Campus, Tribhuwan University '
+              college='Amrit Science Campus, Tribhuwan University'
             />
             <ResumeCard 
               Icon={FaPen} 
               text="Completed my +2 education with a GPA of 3.46"
-              college='Xavier International College, Kalopul '
+              college='Xavier International College, Kalopul'
             />
-             <ResumeCard 
+            <ResumeCard 
               Icon={BsDatabase} 
               text="Certification"
-              college='Free Code Camp- Responsive Web Design   
-              CodeForChange-UI/UX Design'
+              college='Free Code Camp - Responsive Web Design | CodeForChange - UI/UX Design'
             />
           </div>
-          
         </div>
 
       </div>
     </div>
-  )
+  );
 }
 
-export default Resume
+export default Resume;

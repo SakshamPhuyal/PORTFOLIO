@@ -26,7 +26,7 @@ return ()=>window.removeEventListener("scroll",handler);
 <div className='flex items-center space-x-10'>
 {Navlinks.map((link)=>{
   return<Link key={link.id} href={link.url} className='text-base hover:text-cyan-400 text-white font-medium transition-all duration-200'>
-    <p>{link.label}</p>
+    <p className='text-xl'>{link.label}</p>
   </Link>
 })}
 </div>

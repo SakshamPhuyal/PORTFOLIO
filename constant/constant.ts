@@ -4,15 +4,15 @@ export const Navlinks=[
         url:"#",
         label:"Home",
     },
-      {
-        id:2,
-        url:"#",
-        label:"Services",
-    },
+    //   {
+    //     id:2,
+    //     url:"#",
+    //     label:"Services",
+    // },
       {
         id:3,
         url:"#",
-        label:"Resume",
+        label:"About ME",
     },
       {
         id:4,

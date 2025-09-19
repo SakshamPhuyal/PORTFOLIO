@@ -58,12 +58,12 @@ const Projects = () => {
       img: "/images/Bank.png",
       desc: "This is a simple mobile banking software developed using the C programming language. The software demonstrates basic banking functionalities and provides an interactive console interface to simulate essential banking operations.",
       demoLink: "",
-      githubLink: "",
+      githubLink: "https://github.com/SakshamPhuyal/Banking-Software",
     },
   ];
 
   return (
-    <div className="pt-16 pb-6">
+    <div id= "projects" className="pt-16 pb-6">
       <h1 className="text-center text-5xl text-white font-bold">
         Projects <span className="text-cyan-300">Section</span>
       </h1>

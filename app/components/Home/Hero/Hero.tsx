@@ -7,7 +7,7 @@ import ParticlesHero from './Background';
 
 const Hero = () => {
   return (
-    <div className='relative h-screen flex items-center justify-center text-white overflow-hidden flex-col'>
+    <div id="home" className='relative h-screen flex items-center justify-center text-white overflow-hidden flex-col'>
    < ParticlesHero />
       <div className='relative z-10 flex flex-col items-center'>
         <Image src="/images/saksham.jpg" alt='img' width={220} height={190}  className='rounded-full  border-[#0c0c48aa] 

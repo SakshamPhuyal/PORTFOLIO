@@ -8,7 +8,7 @@ import ParticlesHero from '../Hero/Background';
 
 const Resume = () => {
   return (
-    <div className="relative min-h-screen pt-20 pb-16 overflow-hidden">
+    <div id="about" className=" relative min-h-screen pt-20 pb-16 overflow-hidden">
       {/* Background Particles */}
       <div className="absolute inset-0 -z-10">
         <ParticlesHero />

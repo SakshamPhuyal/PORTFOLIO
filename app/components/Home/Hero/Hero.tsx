@@ -16,7 +16,7 @@ const Hero = () => {
           href="https://www.facebook.com/saksham.phuyal"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-3 rounded-full border-2 border-neonGreen shadow-[0_0_7px_#39ff14,0_0_30px_#39ff14,0_0_45px_#39ff14] hover:scale-110 transition-transform"
+          className="p-3 rounded-full border-2 border-neonGreen shadow-[0_0_2px_#39ff14,0_0_30px_#39ff14,0_0_45px_#39ff14] hover:scale-110 transition-transform"
         >
           <FaFacebook className="text-2xl text-white" />
         </a>
@@ -25,7 +25,7 @@ const Hero = () => {
           href="https://www.linkedin.com/in/saksham-phuyal-7a8971347/"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-3 rounded-full border-2 border-neonGreen shadow-[0_0_7px_#39ff14,0_0_30px_#39ff14,0_0_45px_#39ff14] hover:scale-110 transition-transform"
+          className="p-3 rounded-full border-2 border-neonGreen shadow-[0_0_2px_#39ff14,0_0_30px_#39ff14,0_0_45px_#39ff14] hover:scale-110 transition-transform"
         >
           <FaLinkedin className="text-2xl text-white" />
         </a>

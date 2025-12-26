@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { BiDownload } from 'react-icons/bi'
 import { FaCode } from "react-icons/fa"
-
+import Image from 'next/image'
 const Nav = () => {
   const [navbg, setNavbg] = useState(false);
 
@@ -37,9 +37,16 @@ const Nav = () => {
         
         {/* Logo */}
        <div className='flex items-center space-x-2'>
-  <div className='w-10 h-10 bg-white rounded-full flex items-center justify-center flex-col'>
-    <FaCode className='w-5 h-5 text-black' />
-  </div>
+  <div className='w-10 h-10 rounded-full overflow-hidden'>
+  <Image
+    src="/images/final.jpg"
+    alt="Saksham Logo"
+    width={40}
+    height={40}
+    className="object-contain rounded-2xl"
+  />
+</div>
+
   <Link href="/" className="text-2xl text-white font-bold hover:text-cyan-400 transition">
     SAKSHAM
   </Link>

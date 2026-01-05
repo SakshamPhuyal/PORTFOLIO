@@ -22,7 +22,7 @@ const Projects = () => {
       title: "Currency Converter",
       img: "/images/cc.png",
       desc: "A simple and interactive currency converter built with JavaScript that fetches real-time exchange rates to provide accurate and up-to-date conversions between multiple currencies.",
-      demoLink: "https://money-exchange-3zlbmm2qo-saksham-phuyals-projects.vercel.app/",
+      demoLink: "https://money-exchange-tau.vercel.app/",
       githubLink: "https://github.com/SakshamPhuyal/Money-Exchange",
     },
     {
@@ -55,7 +55,7 @@ const Projects = () => {
     },
        {
       title: "Mobile Banking",
-      img: "/images/Bank.png",
+      img: "/images/bank.png",
       desc: "This is a simple mobile banking software developed using the C programming language. The software demonstrates basic banking functionalities and provides an interactive console interface to simulate essential banking operations.",
       demoLink: "",
       githubLink: "https://github.com/SakshamPhuyal/Banking-Software",

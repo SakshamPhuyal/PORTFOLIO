@@ -20,7 +20,7 @@ const Nav = () => {
   // Function to open PDF + download DOCX
   const handleDownloadAndView = () => {
     // Open PDF in new tab
-    window.open("/cv.pdf", "_blank");
+    window.open("/resume.pdf", "_blank");
 
     // Trigger download of DOCX
     const link = document.createElement("a");

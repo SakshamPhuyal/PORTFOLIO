@@ -6,6 +6,7 @@ import {
   SiMongodb,
   SiNextdotjs,
   SiC,
+  SiExpress,
   SiCplusplus,
   SiTailwindcss,
   SiVite,
@@ -44,6 +45,7 @@ const Skills: React.FC = () => {
     { name: 'Vite', icon: SiVite, color: 'text-purple-500' },
     { name: 'shadcn/ui', icon: SiShadcnui, color: 'text-white' },
     { name: 'MUI', icon: SiMui, color: 'text-blue-500' },
+      { name: 'Express.js', icon: SiExpress, color: 'text-gray-300' },
   ];
 
   const databases: Skill[] = [

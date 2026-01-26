@@ -17,6 +17,7 @@ import {
   SiShadcnui,
   SiMui,
   SiFigma,
+  SiCanva,
 } from 'react-icons/si';
 import ParticlesHero from '../Hero/Background';
 
@@ -59,6 +60,7 @@ const Skills: React.FC = () => {
     { name: 'GitLab', icon: SiGitlab, color: 'text-orange-500' },
     { name: 'Vercel', icon: SiVercel, color: 'text-black dark:text-white' },
     { name: 'Figma', icon: SiFigma, color: 'text-pink-500' },
+      { name: 'Canva', icon: SiCanva, color: 'text-cyan-400' },
   ];
 
   // Render a section with a title and its skills
